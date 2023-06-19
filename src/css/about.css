@@ -1,0 +1,45 @@
+.Aboutteam h1
+{
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.team {
+  color: rebeccapurple;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+  gap: 10px;
+  
+}
+
+.position
+{
+  width: 80% ;
+  height: 20rem;
+  border: 2px solid grey;
+  transition: transform 0.5s ease;
+}
+
+.team1:hover
+{
+background-image: url('../images/people/chandrashekar2.jpeg');
+
+}
+.team2:hover
+{
+background-image: url('../images/people/chandrashekar2.jpeg');
+
+}
+.team3:hover
+{
+  background-image: url('../images/people/chandrashekar2.jpeg');
+
+}
+.team4:hover
+{
+
+background-image: url('../images/people/chandrashekar2.jpeg');
+transform:
+}

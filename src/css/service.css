@@ -1,0 +1,72 @@
+
+.ServiceWeOffer
+{
+    display: inline;
+}
+
+/* cross platofrom and IOS */
+.task-format
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+p
+{
+    font-size: 15px;
+    font-style: bold;
+    font-style: oblique;
+    text-align: start;
+ 
+    
+}
+
+
+.task-details
+{
+    width: 37%;
+    text-align: center;
+   
+
+}
+.task-img
+{
+    width: 20rem;
+    
+}
+
+
+/* android and website */
+
+.task-format2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.task-format2 p
+{
+   padding-left: 25px;
+    
+}
+.task-details2
+{
+    width: 50%;
+    text-align: center;
+    
+}
+.task-img2
+{
+    width: 20rem;
+    
+}
+
+.curve
+{
+    width: 40%;
+    height: 9em;
+    margin-left: 30%;
+}

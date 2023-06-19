@@ -1,0 +1,110 @@
+.features
+{
+    text-align: center; 
+}
+
+.offer_details
+{
+    display: flex;
+   justify-content: center;
+}
+.offer_details p
+{
+    font-style: oblique;
+    font-size: medium;
+}
+.customBox1
+{
+    margin: 20px;
+    border: 1px inset ;
+    border-color: black;
+    height: 13rem;
+    width: 29rem;
+    text-align: center;
+    transition: background-color 2s ease-out 100ms;
+    
+    
+}
+.customBox2
+{
+    margin: 20px;
+    border: 1px inset ;
+    border-color: black;
+    height: 13rem;
+    width: 29rem;
+    text-align: center;
+    transition: background-color 2s ease-out 100ms;
+    
+}
+.customBox3
+{
+    margin: 20px;
+    border: 1px inset ;
+    border-color: black;
+    height: 13rem;
+    width: 29rem;
+    text-align: center;
+    transition: background-color 2s ease-out 100ms;
+
+}
+
+.customBox1:hover{
+    background-color:  rgb(13, 13, 138);
+    color: white;
+   
+    transform:  translateY(-30px);
+}
+.customBox2:hover{
+    background-color:  rgb(13, 13, 138);
+    color: white;
+    animation-name: 'bounce';
+    transform:  translateY(-30px);
+}
+.customBox3:hover{
+    background-color: rgb(13, 13, 138);
+    color: white;
+    animation-name: 'bounce';
+    transform:  translateY(-30px);
+}
+.techcss
+{
+   display: flex;
+   justify-content: center;
+}
+
+.tech
+{
+    width: 6rem;
+    height: 6rem;
+    padding-left: 25px; 
+}
+
+.details
+{
+   margin-left:7% ;
+    align-items: center;
+    width: 93%;
+}
+.details h1
+{
+    font:400;
+    
+}
+.details p
+{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+.box {
+    width: 40%;
+    height: 200px;
+    margin: 1%;
+    float: left;
+ 
+  }
+  
+  .box:nth-child(2n+1) {
+    clear: both;
+  }
+

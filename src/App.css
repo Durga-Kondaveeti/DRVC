@@ -1,0 +1,62 @@
+.App
+{
+  background-color: white;
+}
+.taskbar
+{
+background-color: antiquewhite;
+height: 7rem;
+width: 100%;
+display: flex;
+justify-content: space-between; /* align items at the left and right edges */
+align-items: center; 
+}
+
+.logo
+{
+  width: 20rem;
+
+}
+li
+{
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+  float: left;
+  font-size: larger;
+
+}
+.my-link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+
+  margin: 5px;
+
+}
+
+
+.footer
+{
+  margin-top: 4rem;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: #ddd4e0;
+    background-color:black;
+
+}
+.footer a
+{
+  color: azure;
+  text-decoration: none;
+
+}
+.contactDetails
+{
+  text-align: start;
+  float: right;
+}

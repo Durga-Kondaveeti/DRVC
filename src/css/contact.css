@@ -1,0 +1,142 @@
+
+.formDesign
+{
+    display: flex;
+    margin: 5rem;
+    justify-content: space-around;
+    border: 1px red solid;
+    border-radius: 2rem;
+    height: 20rem;
+    padding: 20px;
+}
+
+
+.formBox
+{
+    
+    align-items: center;
+    text-align: left;
+    width: 20rem;
+    padding-top: 10px;
+   
+}
+.backgroundImage
+{
+    background-image: url('../images/contactpic.jpg');
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+.form-information
+{
+    text-align: start;
+}
+.form-information h1
+{
+    color: red;
+}
+.form-information p
+{
+    font-style: oblique;
+    font-size:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input1
+{
+    width: 12rem;
+    border: 3px #229091 solid;
+    opacity: 40%;
+    
+}
+.input2
+{
+    width: 12rem;
+    height: 3rem;
+    border: 3px  #229091 solid;
+    opacity: 40%;
+    
+}
+
+/* .submitbutton
+{
+    border-radius: 7%;
+    width: 10rem;
+    border: 2px rgb(139, 252, 139) solid;
+    background-color: rgb(139, 252, 139);
+    height: 2rem;
+    box-shadow: 100px;
+} */
+/* .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);   
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: translateY(3px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+  }
+  
+  .button:active {
+    transform: translateY(0);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+   */
+
+   button {
+    --c:  #229091; /* the color*/
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5%;
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+  
+  
+  body {
+    
+    margin: 0;
+    display: grid;
+    /* place-content: center; */
+    grid-auto-flow: column;
+    gap: 40px;
+    
+  }
+  button {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }

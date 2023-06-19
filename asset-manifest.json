@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Vsolutions/static/css/main.92e14ee2.css",
+    "main.js": "/Vsolutions/static/js/main.53aa656b.js",
+    "static/js/787.57c1c70e.chunk.js": "/Vsolutions/static/js/787.57c1c70e.chunk.js",
+    "static/media/android.jpg": "/Vsolutions/static/media/android.8661ed6198f24888e88d.jpg",
+    "static/media/contactpic.jpg": "/Vsolutions/static/media/contactpic.344aa7d1f33030ef8226.jpg",
+    "static/media/chandrashekar.jpeg": "/Vsolutions/static/media/chandrashekar.9113c65bfd9fb4acd111.jpeg",
+    "static/media/ios.jpg": "/Vsolutions/static/media/ios.01733924a20e36ed4cc7.jpg",
+    "static/media/durga.jfif": "/Vsolutions/static/media/durga.e3d032db19a41702d980.jfif",
+    "static/media/path.png": "/Vsolutions/static/media/path.d643df0ce8684612153c.png",
+    "static/media/websites.png": "/Vsolutions/static/media/websites.8e877c06ea46d16dedc7.png",
+    "static/media/cross-platform.png": "/Vsolutions/static/media/cross-platform.09686ed94ecf9e58e288.png",
+    "static/media/smartphone.jpg": "/Vsolutions/static/media/smartphone.1e55f1f378773da1893b.jpg",
+    "static/media/security.jpg": "/Vsolutions/static/media/security.443c19eebb5b82d412b5.jpg",
+    "static/media/employees.jpg": "/Vsolutions/static/media/employees.22898187c4d47f3b8107.jpg",
+    "static/media/balareddy.jpeg": "/Vsolutions/static/media/balareddy.fc9fee33112bead1b298.jpeg",
+    "static/media/customer.jpg": "/Vsolutions/static/media/customer.d88a34cf6413c798c9cc.jpg",
+    "static/media/logo-bg.png": "/Vsolutions/static/media/logo-bg.6d8a6fdbaf41931f406a.png",
+    "static/media/jquery.png": "/Vsolutions/static/media/jquery.be7bb63158a4ad744824.png",
+    "index.html": "/Vsolutions/index.html",
+    "main.92e14ee2.css.map": "/Vsolutions/static/css/main.92e14ee2.css.map",
+    "main.53aa656b.js.map": "/Vsolutions/static/js/main.53aa656b.js.map",
+    "787.57c1c70e.chunk.js.map": "/Vsolutions/static/js/787.57c1c70e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92e14ee2.css",
+    "static/js/main.53aa656b.js"
+  ]
+}
